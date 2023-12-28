@@ -1,0 +1,15 @@
+<template>
+  <main style={treeImgStyle}>
+    <template for:each={baubles} for:item="bauble" key={bauble.key}>
+        <p key={bauble.key} style={bauble.styles}></p>
+    </template>
+</main>
+<svg viewBox="0 -20 300 300">
+    <defs>
+        <filter id="drawn">
+            <feTurbulence baseFrequency="0.1325" numOctaves="8" />
+            <feDisplacementMap in="SourceGraphic" scale="10" />
+        </filter>
+    </defs>
+</svg>
+</template>
