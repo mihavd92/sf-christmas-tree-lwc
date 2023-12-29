@@ -39,6 +39,7 @@ Enjoying a beautiful Christmas tree and getting into the holiday spirit ;-)
 <br />
 You can also modify certain parameters of the tree. For instance, if you want a different image of the tree itself, upload the desired image, add it to a zip archive named "tree", and upload it as a Static Resource named "tree".
 In the component code, by changing the parameter values, you can adjust the settings of the Christmas lights:
+<br />
 ![1703848195050](https://github.com/mihavd92/sf-christmas-tree-lwc/assets/50591995/ddf6b38e-fd9d-402a-9348-7c37fca18c5c)
 <br />
 By changing the values of **maxX** and **maxY**, you can adjust the width and height of the array of lights that collectively form our Christmas tree.
